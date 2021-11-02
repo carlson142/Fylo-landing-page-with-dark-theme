@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>
+      Frontend Mentor | Fylo landing page with dark theme and features grid
+    </title>
+  </head>
+  <body>
+    <main>
+      <!--HEADER-->
+      <div class="header">
+        <div class="header__top">
+          <div class="header__top--logo">
+            <img src="img/logo.svg" alt="logo" class="header__top--logoImg" />
+          </div>
+
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__link">Features</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Team</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Sign In</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__hero">
+          <img
+            src="img/illustration-intro.png"
+            alt="hero"
+            class="header__hero--img"
+          />
+        </div>
+
+        <h1 class="header__heading">
+          All your files in one secure location, accessible anywhere.
+        </h1>
+
+        <p class="header__text">
+          Fylo stores all your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends
+          family, and co-workers.
+        </p>
+
+        <button class="cta">Get Started</button>
+      </div>
+
+      <!--SECTION 1-->
+      <div class="section-1">
+        <div class="section-1__component">
+          <!--CARD 1-->
+          <div class="card">
+            <div class="card__img">
+              <img src="img/icon-access-anywhere.svg" alt="access" />
+            </div>
+
+            <h3 class="card__heading">Access your files, anywhere</h3>
+
+            <p class="card__text">
+              The ability to use a smartphone, tablet, or computer to access
+              your account means your files follow you everywhere.
+            </p>
+          </div>
+
+          <!--CARD 2-->
+          <div class="card">
+            <div class="card__img">
+              <img src="img/icon-security.svg" alt="security" />
+            </div>
+
+            <h3 class="card__heading">Security you can trust</h3>
+
+            <p class="card__text">
+              2-factor authentication and user-controlled encryption are just a
+              couple of the security features we allow to help secure your
+              files.
+            </p>
+          </div>
+
+          <!--CARD 3-->
+          <div class="card">
+            <div class="card__img">
+              <img src="img/icon-collaboration.svg" alt="collab" />
+            </div>
+
+            <h3 class="card__heading">Real-time collaboration</h3>
+
+            <p class="card__text">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required.
+            </p>
+          </div>
+
+          <!--CARD 4-->
+          <div class="card">
+            <div class="card__img">
+              <img src="img/icon-any-file.svg" alt="any file" />
+            </div>
+
+            <h3 class="card__heading">Store any type of file</h3>
+
+            <p class="card__text">
+              Whether you're sharing holidays photos or work documents, Fylo has
+              you covered allowing for all file types to be securely stored and
+              shared.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--SECTION 2-->
+      <div class="section-2">
+        <div class="section-2__left">
+          <img
+            src="img/illustration-stay-productive.png"
+            alt="productive"
+            class="section-2__left--img"
+          />
+        </div>
+        <div class="section-2__right">
+          <h2 class="section-2__right--heading">
+            Stay productive, wherever you are
+          </h2>
+
+          <p class="section-2__right--text">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+
+          <p class="section-2__right--text">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required.
+          </p>
+
+          <div class="section-2__right--cta">
+            <a href="#" class="section-2__right--link">See how Fylo works</a>
+
+            <svg class="section-2__right--icon">
+              <use xlink:href="img/symbol-defs.svg#icon-arrow-right2"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!--SECTION 3-->
+      <div class="section-3">
+        <!--QUOTES-->
+        <div class="section-3__quotes">
+          <img
+            src="img/bg-quotes.png"
+            alt="quotes"
+            class="section-3__quotes--img"
+          />
+        </div>
+        <!--CARD 1-->
+        <div class="section-3__card">
+          <p class="section-3__card--text">
+            Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine.
+          </p>
+
+          <div class="section-3__card--person">
+            <img
+              src="img/profile-1.jpg"
+              alt="sati"
+              class="section-3__card--img"
+            />
+            <div class="section-3__card--info">
+              <span class="section-3__card--name">Satish Patel</span>
+              <span class="section-3__card--job">Founder & CEO, Huddle</span>
+            </div>
+          </div>
+        </div>
+
+        <!--CARD 2-->
+        <div class="section-3__card">
+          <p class="section-3__card--text">
+            Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine.
+          </p>
+
+          <div class="section-3__card--person">
+            <img
+              src="img/profile-2.jpg"
+              alt="sati"
+              class="section-3__card--img"
+            />
+            <div class="section-3__card--info">
+              <span class="section-3__card--name">Bruce McKenzie</span>
+              <span class="section-3__card--job">Founder & CEO, Huddle</span>
+            </div>
+          </div>
+        </div>
+
+        <!--CARD 3-->
+        <div class="section-3__card">
+          <p class="section-3__card--text">
+            Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine.
+          </p>
+
+          <div class="section-3__card--person">
+            <img
+              src="img/profile-3.jpg"
+              alt="sati"
+              class="section-3__card--img"
+            />
+            <div class="section-3__card--info">
+              <span class="section-3__card--name"> Iva Boyd</span>
+              <span class="section-3__card--job">Founder & CEO, Huddle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--SECTION 4-->
+      <div class="section-4">
+        <div class="section-4__component">
+          <h2 class="section-4__component--heading">Get early access today</h2>
+          <p class="section-4__component--text">
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+
+          <form action="#" class="section-4__component--form">
+            <input
+              type="email"
+              id="email"
+              class="input-email"
+              placeholder="email@example.com"
+              required
+            />
+
+            <button
+              class="cta"
+              style="padding: 1.5rem 3rem"
+              id="cta-email"
+              type="submit"
+            >
+              Get Started For Free
+            </button>
+
+            <div class="error">Please enter a vaild e-mail address!</div>
+          </form>
+        </div>
+      </div>
+
+      <!--FOOTER-->
+      <div class="footer">
+        <div class="footer__logo">
+          <img src="img/logo.svg" alt="logo" />
+        </div>
+
+        <div class="footer__component">
+          <!--card 1-->
+          <div class="footer__card footer__card-1">
+            <div class="footer__card--icon">
+              <img src="img/icon-location.svg" alt="location" />
+            </div>
+            <p class="footer__card--text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+
+          <!--card 2-->
+          <div class="footer__card footer__card-2">
+            <div class="block">
+              <div class="footer__card--icon">
+                <img src="img/icon-phone.svg" alt="phone" />
+              </div>
+              <p class="footer__card--text">+1-543-123-4567</p>
+            </div>
+
+            <div class="block">
+              <div class="footer__card--icon">
+                <img src="img/icon-email.svg" alt="email" />
+              </div>
+              <p class="footer__card--text">example@fylo.com</p>
+            </div>
+          </div>
+
+          <!--card 3-->
+          <div class="footer__card footer__card-3">
+            <!--list 1-->
+            <ul class="footer__card--list">
+              <li class="footer__card--item" style="width: 66px">
+                <a href="#" class="footer__card--link"> About Us</a>
+              </li>
+              <li class="footer__card--item">
+                <a href="#" class="footer__card--link"> Jobs</a>
+              </li>
+              <li class="footer__card--item">
+                <a href="#" class="footer__card--link"> Press</a>
+              </li>
+              <li class="footer__card--item">
+                <a href="#" class="footer__card--link"> Blog</a>
+              </li>
+            </ul>
+
+            <!--list 2-->
+            <ul class="footer__card--list">
+              <li class="footer__card--item">
+                <a href="#" class="footer__card--link"> Contact Us</a>
+              </li>
+              <li class="footer__card--item">
+                <a href="#" class="footer__card--link"> Terms</a>
+              </li>
+              <li class="footer__card--item">
+                <a href="#" class="footer__card--link"> Privacy</a>
+              </li>
+            </ul>
+          </div>
+
+          <!--card 4-->
+          <div class="footer__card footer__card-4">
+            <div class="icon-container">
+              <svg class="footer__card--icons">
+                <use xlink:href="img/symbol-defs2.svg#icon-facebook"></use>
+              </svg>
+            </div>
+            <div class="icon-container">
+              <svg class="footer__card--icons">
+                <use xlink:href="img/symbol-defs2.svg#icon-twitter"></use>
+              </svg>
+            </div>
+            <div class="icon-container">
+              <svg class="footer__card--icons">
+                <use xlink:href="img/symbol-defs2.svg#icon-instagram"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+:root {
+  //(intro and email sign up background)
+  --color-primary-dark-blue1: hsl(217, 28%, 15%);
+
+  //(main background)
+  --color-primary-dark-blue2: hsl(218, 28%, 13%);
+
+  //(footer background)
+  --color-primary-dark-blue3: hsl(216, 53%, 9%);
+
+  //(testimonials background)
+  --color-primary-dark-blue4: hsl(219, 30%, 18%);
+
+  //////////////////////////////////////////////////////////////////////////////////////
+  //(inside call-to-action gradient)
+
+  --color-secondary-cyan: hsl(176, 68%, 64%);
+
+  //(inside call-to-action gradient)
+  --color-secondary-blue: hsl(198, 60%, 50%);
+
+  // error
+  --color-secondary-red: hsl(0, 100%, 63%);
+
+  //////////////////////////////////////////////////////////////////////////////////////
+  --font-family1: "Raleway", sans-serif; // Headings, Call-to-actions, Header Navigation
+  --font-family2: "Open Sans", sans-serif; // Body
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: var(--font-family1);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  height: 100%;
+  width: 144rem;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--color-primary-dark-blue3);
+
+  @media (max-width: 1020px) {
+    width: 375px;
+  }
+}
